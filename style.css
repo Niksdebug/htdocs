@@ -1,0 +1,62 @@
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background: url('nik.webp')no-repeat;
+            background-size: cover;
+            background-position: center;
+        
+        }
+        h1, h2 {
+            color: #f0eaea;
+            text-align: center;
+            /* text-decoration: underline; */
+            
+        }
+        p{
+            background: transparent;
+            backdrop-filter: blur(20px);
+            padding: 20px 10px;
+            border: 2px solid rgb(247, 247, 248);
+            color: #fefbfbfd ;
+            border-radius: 20px;
+            margin-top: 10px;
+        }
+        form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        label {
+            font-weight: bold;
+            margin-right: 10px;
+            color: #fff;
+        }
+        input[type="text"] {
+            padding: 8px;
+            border: 1px dotted #e31818;
+            border-radius: 4px;
+            width: 200px;
+        }
+        button {
+            padding: 8px 12px;
+            background-color: #4e247e;
+            color: #fefbfb;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #cbee41;
+        }
+        h2 {
+            margin-top: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        strong {
+            font-weight: bold;
+        }
+    
