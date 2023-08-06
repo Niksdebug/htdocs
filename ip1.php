@@ -61,5 +61,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ip_address'])) {
         </p>
     <?php endif; ?>
 </body>
-
 </html>
